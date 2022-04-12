@@ -7,10 +7,10 @@ window.onscroll = function() {
     if (window.pageYOffset > fixedNav) {
         header.classList.add('navbar-fixed');
         toTop.classList.remove('hidden');
-        toTop.classList.add('fixed');
+        toTop.classList.add('flex');
     } else {
         header.classList.remove('navbar-fixed');
-        toTop.classList.remove('fixed');
+        toTop.classList.remove('flex');
         toTop.classList.add('hidden');
     }
 };
