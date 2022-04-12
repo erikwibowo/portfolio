@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./index.html', './public/**/*.{html,js}'],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -16,8 +17,8 @@ module.exports = {
         'primary-dark': '#00acc1',
         'secondary-dark': '#ff6f00',
         'accent-dark': '#e64a19',
-        'light': '#f5f5f5',
-        'dark': '#212121',
+        'light': '#ffffff',
+        'dark': '#0f172a',
       },
       screens: {
         '2xl': '1320px',

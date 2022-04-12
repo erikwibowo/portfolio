@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
-    "build": "npx tailwindcss -o ./public/scc/final.css --minify"
+    "build": "npx tailwindcss -o ./public/css/final.css --minify"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,8 @@
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
     "tailwindcss": "^3.0.23"
   }
 }
